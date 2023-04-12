@@ -4,3 +4,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+	background-color: white;
+	width: 800px;
+	padding: 50px;
+	border-radius: 10px;
+	display: block;
+	margin: 25px auto;
+	border: 5px solid gray;
+}
+.container h1 {
+	text-align: center;
+}
+.question {
+	padding: 10px;
+	margin: 10px;
+}
+#submitBtn {
+	width: 100%;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	background-color: gray;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
